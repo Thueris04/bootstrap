@@ -21,13 +21,22 @@
         }
 
         .rectangle {
-            width: 258px;
+            width: calc(258px - 28px);
             height: 134px;
             flex-shrink: 0;
             border-radius: 8px;
             border: 1px solid var(--grayscale-divider, #DFE0EB);
             background: var(--grayscale-white, #FFF);
-            margin-bottom: 20px;
+
+        }
+
+        .rectangle1 {
+            width: 1122px;
+            height: 546px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            border: 1px solid var(--grayscale-divider, #DFE0EB);
+            background: var(--grayscale-white, #FFF);
         }
     </style>
 </head>
@@ -188,11 +197,10 @@
                     </li>
                 </ul>
             </div>
-
             <!-- Rectangles -->
             <div class="container">
                 <h2>Overview</h2>
-                <div class="row">
+                <div class="row" style="padding: 30px">
                     <div class="col-md-3">
                         <div class="rectangle"></div>
                     </div>
@@ -206,9 +214,12 @@
                         <div class="rectangle"></div>
                     </div>
                 </div>
+                <div>
+                    <div class="rectangle1"></div>
+                </div>
             </div>
         </div>
-
+    </div>
 </body>
 
 </html>
