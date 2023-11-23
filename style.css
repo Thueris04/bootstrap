@@ -1,0 +1,76 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #F7F8FC;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+.rectangle {
+    width: calc(258px - 28px);
+    height: 134px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.rectangle:hover {
+    border-color: #3751FF;
+}
+
+.text1:hover {
+    color: #3751FF;
+
+}
+
+.rectangle1 {
+    width: 1122px;
+    height: 546px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #DFE0EB solid
+}
+
+.rectangle2 {
+    width: 546px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+}
+
+.rectangle3 {
+    width: 546px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+
+}
+
+.rectangle4 {
+    width: 546px;
+    height: 58px;
+    flex-shrink: 0;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+}
+
+.rectangle5 {
+    width: 546px;
+    height: 154px;
+    flex-shrink: 0;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+}
+
+a {
+    margin-left: 10%;
+}
