@@ -1,0 +1,20 @@
+
+
+{
+
+
+  "data1": "Puppies",
+  "data2": "Puppies rescued",
+  "data3": "Homes found",
+  "data4": "Food gathered",
+
+  "most": "Mateo",
+  "less": "Lucas",
+  "adopted": "365",
+  "pending": "124",
+
+  "most-cat":"Cotton Candy",
+  "less-cat":"Kitty",
+  "adopted-cat":"Over 9000",
+  "pending-cat":"All cats have been adopted"
+}
